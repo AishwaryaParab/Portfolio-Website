@@ -1,0 +1,65 @@
+.download-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.download-image {
+    position: relative;
+}
+
+.clip-path {
+    clip-path: polygon(0% 0%, 68% 11%, 95% 51%, 75% 100%, 0% 100%);
+    background-color: #0066FF;
+    width: 700px;
+    height: 550px;
+    flex: 50%;
+}
+
+.download-image img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E0C9F8;
+    font-family: 'Poppins', sans-serif;
+    flex: 30%;
+    /* background-color: #25273C; */
+}
+
+.download-buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25273C;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 7px;
+    width: max-content;
+}
+
+.download-buttons div:hover {
+    background-color: #E0C9F8;
+    color: #25273C;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.download-link {
+    text-decoration: none;
+    color: #E0C9F8;
+}
+
+.download-icon {
+    margin: 0 7px;
+}
+
+
+
+

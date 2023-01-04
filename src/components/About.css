@@ -1,0 +1,136 @@
+.about-me {
+    margin: 20px 0;
+}
+
+.about-me h3 {
+    color: #A460ED;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.know-me {
+    color: #E0C9F8;
+    font-weight: 300;
+    font-size:large;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.about-section {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.about-profile {
+    position: relative;
+}
+
+.square-bg {
+    background-color: #0066FF;
+    width: 226px;
+    height: 226px;
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.square-profile {
+    background-color: #E0C9F8;
+    width: 226px;
+    height: 226px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -33px;
+    left: 33px;
+}
+
+.square-profile img {
+    width: 226px;
+    height: 226px;
+    border-radius: 12px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-desc {
+    max-width: 500px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    /* margin: 10px 0; */
+}
+
+.tagline {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 30px;
+}
+
+.project-comp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-comp p {
+    font-size: 30px;
+    color: #A460ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.awards-array {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 40px; */
+}
+
+.awards {
+    padding: 0 80px;
+    margin-left: 20px;
+}
+
+.awards h3 {
+    color: #A460ED;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    /* padding-left: 90px; */
+    margin-top: 30px;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+.hidden-opp {
+    opacity: 0;
+    transform: translateY(-70%);
+    filter: blur(5px);
+}
+
+.show {
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    transform: translateX(0);
+    filter: blur(0);
+}
+

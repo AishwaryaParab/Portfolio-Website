@@ -1,0 +1,146 @@
+.footer {
+    width: 100%;
+    background-color: #25273C;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.footer p:hover {
+    color: #A460ED;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.professional-info, .useful-links, .follow-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 50px 30px;
+}
+
+.coffee-section {
+    width: max-content;
+    background-color: #A460ED;
+    padding: 7px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.coffee-section:hover {
+    background-color: #FFFFFF;
+    color: #A460ED;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.coffee-section p {
+    padding-right: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: small;
+}
+
+.info-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.info-icon {
+    margin-right: 13px;
+}
+
+.footer-heading {
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.follow-up {
+    justify-content: space-between;
+}
+
+.newsletter-input {
+    margin-top: 12px;
+    border-bottom: 2px solid #A460ED;
+    position: relative;
+    
+}
+
+.useful-links p {
+    font-weight: 300;
+    font-size: small;
+    padding: 3px 0;
+}
+
+.newsletter-input input {
+    outline: none;
+    border: none;
+    background-color: #25273C;
+    /* border-bottom: 2px solid #A460ED; */
+    width: 300px;
+    color: #FFFFFF;
+    padding: 0 30px;
+    font-size: 15px;
+}
+
+.email-icon {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.arrow-icon {
+    position: absolute;
+    bottom: 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.socials span {
+    margin-top: 25px;
+}
+
+.social-icon {
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #A460ED;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.scroll-up {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-up:hover {
+    transform: scale(1.1);
+}
